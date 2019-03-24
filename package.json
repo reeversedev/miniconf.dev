@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "miniconf.dev",
+  "description": "Mini Conf",
+  "private": true,
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
@@ -32,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/tanaypratap/miniconf.dev.git"
   }
 }
