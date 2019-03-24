@@ -13,7 +13,7 @@ module.exports = {
         short_name: 'miniConf',
         start_url: '/',
         background_color: '##644c98',
-        theme_color: '##644c98',
+        theme_color: '##5b5893',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
