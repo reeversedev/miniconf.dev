@@ -12,7 +12,7 @@ const Nav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="first">
-                    <a href="#">About</a>
+                    <a href="#">Agenda</a>
                 </Scroll>
             </li>
             <li>

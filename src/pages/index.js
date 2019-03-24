@@ -123,13 +123,14 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Register yourself</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue</p>
+              <p>This is an invite only event. Please check your email for the confirmation of your invite.</p>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHHw8TR0oaTfGuA9kypeJX9TYmA8JvY7y3tRHZSIWdkHSjxg/viewform?embedded=true" width="100%" height="1034" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </header>
-            <footer className="major">
+            {/* <footer className="major">
               <ul className="actions">
                 <li><Link to="/" className="button">Get Started</Link></li>
               </ul>
-            </footer>
+            </footer> */}
           </section>
 
         </div>
