@@ -6,7 +6,7 @@ import logo from '../assets/images/logo.svg'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Follow MiniConf</h2>
+      <h2>Follow miniConf</h2>
       <ul className="icons">
         <li>
           <a

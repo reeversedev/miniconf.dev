@@ -52,7 +52,7 @@ class Index extends React.Component {
                   <h2>Tanay Pratap</h2>
                 </header>
                 <p>
-                  Engineer at Microsoft <br />
+                  <strong>Engineer at Microsoft</strong> <br />
                   Delivering Tech Talks/ Workshops /Training since last 5 years,
                   ever ready to share knowledge with community. Has ideas about
                   web/career/engineering/life and computer science in general

@@ -32,7 +32,7 @@ const Speaker = ({
       </header>
       <p>
         <strong>Technical Solutions Consultant at Google</strong>
-        {Saurabh.speakerIntro}
+        <br />{Saurabh.speakerIntro}
       </p>
       <p />
       <ul className="actions">
