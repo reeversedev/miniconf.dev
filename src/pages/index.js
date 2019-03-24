@@ -106,13 +106,18 @@ class Index extends React.Component {
             </footer>
           </section> */}
 
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>About miniConf</h2>
-              <p>Learn React and web performance from people who care about web.</p>
+          <section id="first" className="main">
+            <header className="major special">
+              <h2>Agenda</h2>
+              <p>React Faster</p>
             </header>
             
-            <p>itur lacinia blah blah blah...</p>
+            <p>Saurabh and Tanay are two friends from college days, they have grown into industry experts around web technologies. This talk aims to discuss about two things:
+              <br />i) Getting started with building web apps in React
+              <br />ii) Making those apps faster and performant            
+            <br /><br />This is a hands on workshop and attendees need to bring their laptop (fully charged). We will guide you in creating and hosting your first react app.
+            Pre-requisite: Familiarity to Javascript, Node and Git
+            </p>
           </section>
 
           <section id="cta" className="main special">
