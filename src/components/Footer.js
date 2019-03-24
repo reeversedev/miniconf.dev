@@ -6,13 +6,13 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Contact</h2>
+            {/* <h2>Contact</h2>
             <dl className="alt">
                 <dt>Phone</dt>
                 <dd>9742353551</dd>
                 <dt>Email</dt>
                 <dd>tanay.mit@gmail.com</dd>
-            </dl>
+            </dl> */}
             {/* <ul className="icons">
                 <li><a href="https://twitter.com/tanaypratap" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
                 <li><a href="https://www.instagram.com/tanaypratap/?hl=en" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>

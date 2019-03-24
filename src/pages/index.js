@@ -6,7 +6,6 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
 import saurabh from '../assets/images/saurabh.jpg'
 import tanay from '../assets/images/tanay.jpg'
 
@@ -30,7 +29,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="miniConf" />
 
         <Header />
 
@@ -54,7 +53,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li><a href="https://twitter.com/rajpal_saurabh" className="icon fa-twitter alt" style={{ color: '#50a7f3' }}><span className="label">Twitter</span></a></li>
-                  <li><a href="https://www.linkedin.com/in/rajpalsaurabh/" style={{ borderBottom: '0', color: '#50a7f3' }}><i class="fa fa-2x fa-linkedin"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/rajpalsaurabh/" className="icon fa-linkedin alt" style={{ color: '#50a7f3' }}><span className="label">LinkedIn</span></a></li>
                 </ul>
               </div>
               <span className="image"><img src={saurabh} alt="" /></span>
@@ -73,6 +72,7 @@ class Index extends React.Component {
                   <li><a href="https://twitter.com/tanaypratap" className="icon fa-twitter alt" style={{ color: '#50a7f3' }}><span className="label">Twitter</span></a></li>
                   <li><a href="https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA/" className="icon fa-youtube alt" style={{ color: 'red' }}><span className="label">You Tube</span></a></li>
                   <li><a href="https://www.linkedin.com/in/tpratap/" className="icon fa-linkedin alt" style={{ color: '#50a7f3' }}><span className="label">LinkedIn</span></a></li>
+                  <li><a href="https://www.instagram.com/tanaypratap/?hl=en" className="icon fa-instagram alt" style={{ color: 'orange' }}><span className="label">Instagram</span></a></li>
                 </ul>
               </div>
             </div>
