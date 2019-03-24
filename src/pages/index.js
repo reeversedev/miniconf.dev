@@ -133,6 +133,10 @@ class Index extends React.Component {
                 We'll be sending instructions to get the softwares ready in the
                 invitation email.
               </p>
+              <p>
+                <strong>Q:</strong> Is this event online? <br />
+                <strong>A:</strong> No, this is a hands-on workshop in Bangalore. We're finalizing the venue and details will be sent to you via email.
+              </p>
             </p>
           </section>
 

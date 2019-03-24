@@ -7,9 +7,11 @@ const Header = (props) => (
     <header id="header" className="alt">
         <a href="https://twitter.com/miniconf_dev?s=08" className="icon fa-2x fa-microphone alt"><span className="label">MIC</span></a>
         <h1>miniConf</h1>
-        <p>Bringing concise, free and beginner friendly talks for everyone from the industry experts</p><br />
+        <p>Bringing concise, free and beginner friendly talks for everyone from the industry experts</p>
          <h2>React Faster</h2>  
-        <p>Upcoming Event on Saturday, 30th March,  10 AM - 1:00 PM <br/>
+        <p>Upcoming Event on Saturday, 30th March,  10 AM - 1:00 PM
+            <br />Bangalore, India  
+        <br/>
         <Scroll type="id" element="cta"><a href="#">RSVP</a></Scroll></p>        
     </header>
 )

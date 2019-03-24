@@ -53,6 +53,7 @@
 	}
 
 	p {
+		letter-spacing: 0.4px;
 		margin: 0 0 _size(element-margin) 0;
 
 		&.content {
@@ -87,6 +88,7 @@
 
 	h2 {
 		font-size: 1.5em;
+		letter-spacing: 0.2px;
 	}
 
 	h3 {
