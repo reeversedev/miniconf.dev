@@ -9,7 +9,7 @@ const Header = (props) => (
         <h1>miniConf</h1>
         <p>Bringing concise, free and beginner friendly talks for everyone from the industry experts</p><br />
          <h2>React Faster</h2>  
-        <p>Upcoming Event on Saturday, 30th March,  10 AM - 1:30 PM <br/>
+        <p>Upcoming Event on Saturday, 30th March,  10 AM - 1:00 PM <br/>
         <Scroll type="id" element="cta"><a href="#">RSVP</a></Scroll></p>        
     </header>
 )
