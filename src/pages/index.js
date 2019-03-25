@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
@@ -8,7 +8,9 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import saurabh from '../assets/images/saurabh.jpg'
 import tanay from '../assets/images/tanay.jpg'
+import miniConfSocial from '../assets/images/miniConfSocial.jpg'
 import Speaker from '../components/Speaker'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -29,7 +31,13 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="miniConf" />
+        <Helmet> 
+          <title>miniConf</title>
+          <meta property='og:title' content="miniConf" />
+          <meta property='og:image' content={miniConfSocial} />
+          <meta property='og:url' content='https://miniconf.dev' />
+          <meta property='og:description' content="Learn React, GraphQL, Web Performance at miniConf" />
+        </Helmet>
 
         <Header />
 
