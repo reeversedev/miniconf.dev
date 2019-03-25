@@ -150,7 +150,7 @@ class Index extends React.Component {
                 invitation email.
               </p>
               <p>
-                <strong>Q:</strong> Is this event online? <br />
+                <strong>Q: Is this event online?</strong> <br />
                 <strong>A:</strong> No, this is a hands-on workshop in Bangalore. We're finalizing the venue and details will be sent to you via email.
               </p>
             </p>
