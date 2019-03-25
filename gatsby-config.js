@@ -20,6 +20,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    `gatsby-remark-social-cards`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

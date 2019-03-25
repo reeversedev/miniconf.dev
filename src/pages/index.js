@@ -35,8 +35,16 @@ class Index extends React.Component {
           <title>miniConf</title>
           <meta property='og:title' content="miniConf" />
           <meta property='og:image' content={miniConfSocial} />
+          <meta property="og:type" content="Website" />
           <meta property='og:url' content='https://miniconf.dev' />
-          <meta property='og:description' content="Learn React, GraphQL, Web Performance at miniConf" />
+          <meta property='og:description' content="Learn React, GraphQL, Web Performance from industry experts at miniConf" />
+
+          {/* Twitter Card tags */}
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:creator" content="@miniConf_dev" />
+          <meta name="twitter:title" content="miniConf" />
+          <meta name="twitter:description" content="Learn React, GraphQL, Web Performance from industry experts at miniConf" />
+          <meta name="twitter:image" content={miniConfSocial} />
         </Helmet>
 
         <Header />
