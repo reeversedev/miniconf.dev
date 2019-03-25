@@ -40,6 +40,7 @@ const Speaker = ({
           <a
             href="https://twitter.com/rajpal_saurabh"
             className="icon fa-twitter alt"
+            target= '_blank'
             style={{ color: '#50a7f3' }}
           >
             <span className="label">Twitter</span>
@@ -49,6 +50,7 @@ const Speaker = ({
           <a
             href="https://www.linkedin.com/in/rajpalsaurabh/"
             className="icon fa-linkedin alt"
+            target= '_blank'
             style={{ color: '#50a7f3' }}
           >
             <span className="label">LinkedIn</span>

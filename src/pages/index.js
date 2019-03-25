@@ -79,6 +79,7 @@ class Index extends React.Component {
                     <a
                       href="https://twitter.com/tanaypratap"
                       className="icon fa-twitter alt"
+                      target= '_blank'
                       style={{ color: '#50a7f3' }}
                     >
                       <span className="label">Twitter</span>
@@ -88,6 +89,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA/"
                       className="icon fa-youtube alt"
+                      target= '_blank'
                       style={{ color: 'red' }}
                     >
                       <span className="label">You Tube</span>
@@ -97,6 +99,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.linkedin.com/in/tpratap/"
                       className="icon fa-linkedin alt"
+                      target= '_blank'
                       style={{ color: '#50a7f3' }}
                     >
                       <span className="label">LinkedIn</span>
@@ -106,6 +109,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.instagram.com/tanaypratap/?hl=en"
                       className="icon fa-instagram alt"
+                      target= '_blank'
                       style={{ color: 'orange' }}
                     >
                       <span className="label">Instagram</span>

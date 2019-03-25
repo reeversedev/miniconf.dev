@@ -12,6 +12,7 @@ const Footer = props => (
           <a
             href="https://twitter.com/miniconf_dev"
             className="icon fa-twitter alt"
+            target= '_blank'
           >
             <span className="label">Twitter</span>
           </a>
@@ -20,6 +21,7 @@ const Footer = props => (
           <a
             href="https://www.facebook.com/MiniConf-589851378085283/"
             className="icon fa-facebook alt"
+            target= '_blank'
           >
             <span className="label">Facebook</span>
           </a>
