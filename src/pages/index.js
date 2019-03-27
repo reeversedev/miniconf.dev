@@ -11,7 +11,6 @@ import tanay from '../assets/images/tanay.jpg'
 import miniConfSocial from '../assets/images/miniConfSocial.jpg'
 import Speaker from '../components/Speaker'
 
-
 class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -31,19 +30,25 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet> 
+        <Helmet>
           <title>miniConf</title>
-          <meta property='og:title' content="miniConf" />
-          <meta property='og:image' content={miniConfSocial} />
+          <meta property="og:title" content="miniConf" />
+          <meta property="og:image" content={miniConfSocial} />
           <meta property="og:type" content="Website" />
-          <meta property='og:url' content='https://miniconf.dev' />
-          <meta property='og:description' content="Learn React, GraphQL, Web Performance from industry experts at miniConf" />
+          <meta property="og:url" content="https://miniconf.dev" />
+          <meta
+            property="og:description"
+            content="Learn React, GraphQL, Web Performance from industry experts at miniConf"
+          />
 
           {/* Twitter Card tags */}
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:creator" content="@miniConf_dev" />
           <meta name="twitter:title" content="miniConf" />
-          <meta name="twitter:description" content="Learn React, GraphQL, Web Performance from industry experts at miniConf" />
+          <meta
+            name="twitter:description"
+            content="Learn React, GraphQL, Web Performance from industry experts at miniConf"
+          />
           <meta name="twitter:image" content={miniConfSocial} />
         </Helmet>
 
@@ -79,7 +84,7 @@ class Index extends React.Component {
                     <a
                       href="https://twitter.com/tanaypratap"
                       className="icon fa-twitter alt"
-                      target= '_blank'
+                      target="_blank"
                       style={{ color: '#50a7f3' }}
                     >
                       <span className="label">Twitter</span>
@@ -89,7 +94,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA/"
                       className="icon fa-youtube alt"
-                      target= '_blank'
+                      target="_blank"
                       style={{ color: 'red' }}
                     >
                       <span className="label">You Tube</span>
@@ -99,7 +104,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.linkedin.com/in/tpratap/"
                       className="icon fa-linkedin alt"
-                      target= '_blank'
+                      target="_blank"
                       style={{ color: '#50a7f3' }}
                     >
                       <span className="label">LinkedIn</span>
@@ -109,7 +114,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.instagram.com/tanaypratap/?hl=en"
                       className="icon fa-instagram alt"
-                      target= '_blank'
+                      target="_blank"
                       style={{ color: 'orange' }}
                     >
                       <span className="label">Instagram</span>
@@ -155,7 +160,9 @@ class Index extends React.Component {
               </p>
               <p>
                 <strong>Q: Is this event online?</strong> <br />
-                <strong>A:</strong> No, this is a hands-on workshop in Bangalore. We're finalizing the venue and details will be sent to you via email.
+                <strong>A:</strong> No, this is a hands-on workshop in
+                Bangalore. We're finalizing the venue and details will be sent
+                to you via email.
               </p>
             </p>
           </section>
@@ -164,11 +171,12 @@ class Index extends React.Component {
             <header className="major">
               <h2>Register yourself</h2>
               <p>
-                This is an invite only event. Please check your email for the
-                confirmation of your invite.
+                Registration for current event is off. However, we are going to
+                do many events in future and would love to have you. Please fill
+                in the details so that we can contact you for the next event.
               </p>
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfHHw8TR0oaTfGuA9kypeJX9TYmA8JvY7y3tRHZSIWdkHSjxg/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLScbkvYJggCVmPHa12F9kM_3i4bd1vGC4EZ08Gw0GDCPEPWg0w/viewform?embedded=true"
                 width="100%"
                 height="1034"
                 frameborder="0"
